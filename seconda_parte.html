@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Seconda parte del progetto</h1>
+    <label for="file"> <q>Progresso</q> del progetto:</label>
+    <progress id="file" value="50" max="100"> 50% </progress> <br>
+    <template><var>Husky</var></template>
+    Ma ora parliamo un po' di te :) <br>
+    <form action="/nonso.php"> <br>
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Cognome:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <!-- <input type="submit" value="Submit"> -->
+        <br>
+        Dimmi qualcosa di te: <br>
+        <textarea name="descrizione" id="" cols="30" rows="10"></textarea> <br>
+        <br>
+        <button>Clicca per dire che ti fa schifo sto progetto</button>
+        <!-- <select name="" id="dd"></select> -->
+    </form><br>
+    Razze simili all'Husky:
+    <ul>
+        <li>Husky Malamute</li>
+        <li>Labrador Husky</li>
+        <li>Samoiedo</li>
+        <li>Pomsky</li>
+        <li>Canadian Eskimo Dog</li>
+    </ul>
+    <h1>Comando Script</h1>
+
+    <p id="Husky"></p>
+
+    <script>
+        document.getElementById("Husky").innerHTML = "Ciao ragazzi del corso!";
+
+
+    </script>
+    <noscript>Il tuo browser non supporta lo script!</noscript>
+
+    <embed type="text/html" src="embed.html" width="500" height="200">
+    <object data="./assets/5_canadian_eskimo_dog_2760_7_600.webp" width="300" height="200"></object>
+    <param name="autoplay" value="true">
+</body>
+
+</html>
